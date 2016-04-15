@@ -28,3 +28,7 @@ git merge dev //master 合并 dev分支
 
 git branch -d dev //删除分支
 git stash //隐藏当前分支
+
+
+
+git remote -v//查看远程
