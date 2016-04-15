@@ -25,3 +25,6 @@ git branch 查看当前分支
 
 git checkout master //切换到主分支
 git merge dev //master 合并 dev分支
+
+git branch -d dev //删除分支
+git stash //隐藏当前分支
