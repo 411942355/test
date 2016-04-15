@@ -32,3 +32,4 @@ git stash //隐藏当前分支
 
 
 git remote -v//查看远程
+git push [-u] origin dev //推送分支
