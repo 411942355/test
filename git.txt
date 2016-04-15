@@ -1,0 +1,5 @@
+git inti
+git add a.txt
+git commit -m 'version 1'
+
+git diff a.txt
