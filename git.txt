@@ -13,3 +13,6 @@ git reset --hard 文件名
 
 //撤销本地更改
 git checkout --a.txt
+
+git remote add origin https://github.com/411942355/test.git
+git push [-u] origin master -u会把本地的master分支同步
