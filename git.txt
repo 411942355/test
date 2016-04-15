@@ -5,4 +5,4 @@ git commit -m 'version 1'
 git diff a.txt
 
 git log
-git log ¨Cpretty=oneline
+git log --pretty=oneline
