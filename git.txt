@@ -20,7 +20,7 @@ git push [-u] origin master -u会把本地的master分支同步
 在文件夹内 执行git
 git clone https://github.com/411942355/test.git
 
-git branch -b dev //创建并切换分支
+git checkout -b dev //创建并切换分支
 git branch 查看当前分支
 
 git checkout master //切换到主分支
