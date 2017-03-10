@@ -7,36 +7,36 @@ git diff a.txt
 git log
 git log --pretty=oneline
 
-ç‰ˆæœ¬å›é€€
+°æ±¾»ØÍË
 git reflog
-git reset --hard æ–‡ä»¶å
+git reset --hard ÎÄ¼şÃû
 
-//æ’¤é”€æœ¬åœ°æ›´æ”¹
+//³·Ïú±¾µØ¸ü¸Ä
 git checkout --a.txt
 
 git remote add origin https://github.com/411942355/test.git
-git push [-u] origin master -uä¼šæŠŠæœ¬åœ°çš„masteråˆ†æ”¯åŒæ­¥
+git push [-u] origin master -u»á°Ñ±¾µØµÄmaster·ÖÖ§Í¬²½
 
-åœ¨æ–‡ä»¶å¤¹å†… æ‰§è¡Œgit
+ÔÚÎÄ¼ş¼ĞÄÚ Ö´ĞĞgit
 git clone https://github.com/411942355/test.git
 
-git checkout -b dev //åˆ›å»ºå¹¶åˆ‡æ¢åˆ†æ”¯
-git branch æŸ¥çœ‹å½“å‰åˆ†æ”¯
+git checkout -b dev //´´½¨²¢ÇĞ»»·ÖÖ§
+git branch ²é¿´µ±Ç°·ÖÖ§
 
-git checkout master //åˆ‡æ¢åˆ°ä¸»åˆ†æ”¯
-git merge dev //master åˆå¹¶ devåˆ†æ”¯
+git checkout master //ÇĞ»»µ½Ö÷·ÖÖ§
+git merge dev //master ºÏ²¢ dev·ÖÖ§
 
-git branch -d dev //åˆ é™¤åˆ†æ”¯
-git stash //éšè—å½“å‰åˆ†æ”¯
-
-
+git branch -d dev //É¾³ı·ÖÖ§
+git stash //Òş²Øµ±Ç°·ÖÖ§
 
 
-git remote -v//æŸ¥çœ‹è¿œç¨‹
-git push [-u] origin dev //æ¨é€åˆ†æ”¯
 
-git pull //æ›´æ–°
-git checkout  â€“b dev origin/dev //æ›´æ–°è¿œç¨‹åˆ†æ”¯åˆ°æœ¬åœ°
 
-git branch --set-upstream-to=origin/dev // æŒ‡å®šæœ¬åœ°devåˆ†æ”¯ä¸è¿œç¨‹origin/devåˆ†æ”¯çš„é“¾æ¥
+git remote -v//²é¿´Ô¶³Ì
+git push [-u] origin dev //ÍÆËÍ·ÖÖ§
+
+git pull //¸üĞÂ
+git checkout  ¨Cb dev origin/dev //¸üĞÂÔ¶³Ì·ÖÖ§µ½±¾µØ
+
+git branch --set-upstream-to=origin/dev // Ö¸¶¨±¾µØdev·ÖÖ§ÓëÔ¶³Ìorigin/dev·ÖÖ§µÄÁ´½Ó
 
