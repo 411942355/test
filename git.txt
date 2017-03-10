@@ -7,9 +7,9 @@ git diff a.txt
 git log
 git log --pretty=oneline
 
-版本回退
+版本回�??
 git reflog
-git reset --hard 文件名
+git reset --hard 文件�?
 
 //撤销本地更改
 git checkout --a.txt
@@ -17,10 +17,10 @@ git checkout --a.txt
 git remote add origin https://github.com/411942355/test.git
 git push [-u] origin master -u会把本地的master分支同步
 
-在文件夹内 执行git
+在文件夹�? 执行git
 git clone https://github.com/411942355/test.git
 
-git branch -b dev //创建并切换分支
+git branch -b dev //创建并切换分�?
 git branch 查看当前分支
 
 git checkout master //切换到主分支
@@ -32,7 +32,7 @@ git stash //隐藏当前分支
 
 
 git remote -v//查看远程
-git push [-u] origin dev //推送分支
+git push [-u] origin dev //推�?�分�?
 
 git pull //更新
-git checkout  –b dev origin/dev //更新远程分支到本地
+git checkout  –b dev origin/dev //更新远程分支到本�?
